@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html>
+   <head>
+  <script type="text/javascript">
+function functionOne() { alert('You clicked the top text'); }
+function functionTwo() { alert('You clicked the bottom text'); }
+  </script>
+ </head>
 <body>
 <h1>WELCOME TO POCKETMONS' HOME</h1>
-  <br>
-  </br>
-  <br>
-</br>
+  <br>  <br>  <br><br>
+ <p><a href="#" onClick="functionOne();">Top Text</a></p>
+ <p><a href="javascript:functionTwo();">Bottom Text</a></p>
+  
+  <style type="text/css">
+ .red { border: 2px solid red; }
+ .green { border: 2px solid green; }
+</style>
+  
+<p><img name="photo" src=" " 
+onMouseOver="photo.setAttribute('class','red')" 
+onMouseOut="photo.setAttribute('class','green')"></p>
+  
 <p>I'm hosted with GitHub Pages.</p>
-</body>
+ </body>
 </html>
